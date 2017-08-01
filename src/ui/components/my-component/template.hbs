@@ -1,1 +1,8 @@
-<div>My div content</div>
+<div>{{ content }}</div>
+
+
+<ul>
+  {{#each items key="@index" as |item|}}
+    <li>{{item}}</li>
+  {{/each}}
+</ul>
